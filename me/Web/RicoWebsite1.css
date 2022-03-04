@@ -1,0 +1,162 @@
+body {
+  background-image: linear-gradient(to top, #d5ab1f, #e77728, #e43b4a, #c50070, #830d91);
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #EDE5E5;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+h1 {
+  text-shadow: 2px 2px 2px #000;
+  /* x, y, blur, color */
+}
+
+header {
+  grid-column: span 12;
+  background-image: linear-gradient(to top, #d5ab1f, #e77728, #e43b4a, #c50070, #830d91);
+  color: #E4E6CA;
+  font-family: 'Noto Serif', serif;
+  font-size: 28px;
+  text-align: center;
+}
+
+nav {
+  grid-column: span 12;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  float: left;
+  margin: 0 24px 0 0;
+  padding: 24px 0 0 0;
+  width: 216px;
+  text-align: center;
+  text-shadow: 2px 2px 2px #000;
+  /* x, y, blur, color */
+}
+
+nav ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+nav ul a {
+  display: block;
+  background-color: #D5AB1F;
+  color: #CBBFBF;
+  font-family: 'Noto Serif', serif;
+  font-size: 28px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  margin: 0;
+}
+
+nav li a {
+  color: #E4E6CA;
+  transition: background-color 1s, color 1s;
+}
+
+nav li a:hover {
+  background-color: #CC7805;
+  color: #E4E6CA;
+}
+
+main {
+  grid-column: span 12;
+  width: 996px;
+  padding: 24px 0 0 96px;
+  font-family: 'Noto Serif', serif;
+  font-family: 'Zilla Slab', serif;
+  font-size: 28px;
+  text-align: justify;
+}
+
+footer {
+  grid-column: span 12;
+  background-image: linear-gradient(to top, #0c4bb1, #3f4bc3, #6746d2, #8e3add, #b61fe3);
+  font-family: Georgia, sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  text-align: center;
+  padding: 36px 0 36px 0;
+}
+
+footer a {
+  color: black;
+  text-decoration: none;
+  font-size: 32px;
+  transition: color 0.5s;
+}
+
+footer a:hover {
+  color: white;
+}
+
+audio {
+  width: 300px;
+}
+
+/* .roundedbox {
+  padding: 4px;
+  border: 3px solid red;
+  background-color: #ccc;
+  border-radius: 10px;
+}*/
+.roundedbox {
+  padding: 12px 24px 12px 24px;
+  margin: 36px 0px 36px 84px;
+  border: 0px solid red;
+  background-color: #E0DDCF;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 10px 10px 10px #666;
+  /* x, y, blur, color */
+}
+
+.default {
+  float: right;
+  margin-left: 24px;
+  /*margin: 24px 0 0 96px;*/
+  border: 3px solid #582684;
+  background-color: #ccc;
+  border-radius: 500px;
+  /*box-shadow: 10px 10px 10px #666;*/
+}
+
+.link {
+  float: left;
+}
+
+.zion-lennox {
+  /* border: 3px solid #0000ff; */
+  width: 320px;
+  display: block;
+}
+
+.Republic {
+  width: 320px;
+  display: block;
+}
+
+.stevie {
+  width: 320px;
+  display: block;
+}
+
+.container {
+  padding-left: 192px;
+  width: 700px;
+  height: 1130px;
+}
+/* .music{
+  float: right;
+} */
